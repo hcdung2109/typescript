@@ -1,6 +1,11 @@
 class person {
-
+    constructor(name){
+        console.log(name);
+    }
+    run() {
+        console.log('hello');
+    }
 }
- let p = new person(); // khai bao 1 object
+ let p = new person('hoangcongdung'); // khai bao 1 object
 
- console.log(typeof(person));
+ p.run();
